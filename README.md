@@ -1,6 +1,48 @@
-# spa_sample
+# todo-list-app
 
 > A Vue.js project
+
+
+## install nodebrew
+
+``` bash
+# install nodebrew
+$ curl -L git.io/nodebrew | perl - setup
+```
+
+### set path
+
+```
+# set path
+$ cd
+$ vi .bash_profile
+```
+
+```
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+```
+
+### reload and confirm
+``` bash
+$ source .bash_profile
+$ nodebrew
+```
+## install node.js, npm and confirm
+
+``` bash
+$ nodebrew install latest
+$ nodebrew use latest
+
+# confirm
+$ node -v
+$ npm -v
+```
+
+## install vue CLI
+
+``` bash
+$ npm install -g Vue-cli
+```
 
 ## Build Setup
 
