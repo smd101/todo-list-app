@@ -3,14 +3,14 @@
 > A Vue.js project
 
 
-## install nodebrew
+## Install nodebrew
 
 ``` bash
 # install nodebrew
 $ curl -L git.io/nodebrew | perl - setup
 ```
 
-### set path
+### Set path
 
 ```
 # set path
@@ -22,7 +22,7 @@ $ vi .bash_profile
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 ```
 
-### reload and confirm
+### Reload and confirm
 ``` bash
 $ source .bash_profile
 $ nodebrew
@@ -38,7 +38,7 @@ $ node -v
 $ npm -v
 ```
 
-## install vue CLI
+## Install vue CLI
 
 ``` bash
 $ npm install -g Vue-cli
