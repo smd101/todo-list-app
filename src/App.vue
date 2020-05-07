@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <h1>MyTodoApp</h1>
+    <h1>My Pomodoro App</h1>
+    <div>
+      <Clock class="clock" location="TOKYO" :diff="0" />
+    </div>
     <div>
       <label for="title">タイトル：</label>
       <input type="text" v-model="title" placeholder="タイトル">
@@ -22,8 +25,12 @@
 </template>
 
 <script>
+import Clock from "@/components/Clock"
 
 export default {
+  components: {
+    Clock,
+  },
   data: () => ({
     lists: [
       {title: 'mytodo', body: 'contentcontent'},
@@ -48,3 +55,23 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.clock {
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+}
+</style>
+
+<style>
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+</style>
