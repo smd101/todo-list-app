@@ -22,12 +22,12 @@ $ vi .bash_profile
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 ```
 
-### Reload and confirm
+### Reload and Confirm
 ``` bash
 $ source .bash_profile
 $ nodebrew
 ```
-## install node.js, npm and confirm
+## Install node.js, npm and Confirm
 
 ``` bash
 $ nodebrew install latest
