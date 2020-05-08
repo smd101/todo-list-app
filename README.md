@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+# How to setup environment
 
 ## Install nodebrew
 
