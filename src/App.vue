@@ -2,7 +2,7 @@
   <div id="app">
     <h1>My Pomodoro App</h1>
     <div>
-      <Clock class="clock" location="TOKYO" :diff="0" />
+      <Timer class="timer-component" />
     </div>
     <div>
       <label for="title">タイトル：</label>
@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import Clock from "@/components/Clock"
+import Timer from "@/components/Timer"
 
 export default {
   components: {
-    Clock,
+    Timer,
   },
   data: () => ({
     lists: [
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style scoped>
-.clock {
+.timer-component {
   width: 80%;
   max-width: 500px;
   margin: 30px auto;
