@@ -92,13 +92,13 @@ $ git clone git@github.com:smd101/todo-list-app.git
 ## 2. Install all the dependencies
 Install all the dependencies listed in package.json in node_modules.
 ``` bash
-$ yarn install
+$ npm install
 ```
 
 ## 3. Run serve
 execute vue-cli-service serve.
 ``` bash
-$ yarn run serve
+$ npm run serve
 
 # You will see a message similar to the following.
 DONE  Compiled successfully in 5294ms                                                                                         
