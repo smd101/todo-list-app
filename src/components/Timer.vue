@@ -9,8 +9,8 @@
   <v-row align="center">
     <v-col class="text-center" cols="12" sm="4">
       <div class="my-2">
-        <b-button size="lg" variant="outline-primary" v-on:click="start" v-if="!isRunning">START</b-button>
-        <b-button size="lg" variant="outline-primary" v-on:click="stop" v-if="isRunning">STOP</b-button>
+        <CButton size="lg" color="info" v-on:click="start" v-if="!isRunning">START</CButton>
+        <CButton size="lg" color="info" v-on:click="stop" v-if="isRunning">STOP</CButton>
 
       </div>
     </v-col>
@@ -84,7 +84,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex: 1 1;
-  height: 100px;
+  height: 180px;
   position: relative;
   z-index: 1;
   padding: 0.5em;
